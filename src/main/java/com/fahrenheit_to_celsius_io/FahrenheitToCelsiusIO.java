@@ -44,7 +44,7 @@ public class FahrenheitToCelsiusIO {
 
         if ((fahrenheit >= 60) && (fahrenheit <= 85)) {
             System.out.println("Vive le beau temps !");
-        } else if(fahrenheit > 85) {
+        } else if (fahrenheit > 85) {
             System.out.println("Reste à la maison, il fait très chaud !");
         } else {
             System.out.println("Reste à la maison, il fait froid !");

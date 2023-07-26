@@ -37,8 +37,18 @@ public class FahrenheitToCelsiusIO {
         Scanner input = new Scanner(System.in);
         System.out.print("Entrer une valeur Fahrenheit : ");
         int fahrenheit = input.nextInt();
+        System.out.print("Entrer le jour concerné : ");
+        String days = input.next();
         double celsius = (fahrenheit - 32) * (5D / 9);
-        System.out.println("Journée Fahrenheit : " + fahrenheit + " -> En Celsius : " + celsius);
+        System.out.printf("%s %s %.1f \n", days + " En Fahrenheit : ", fahrenheit + "° -> En Celsius : ", celsius);
+
+        if ((fahrenheit >= 60) && (fahrenheit <= 85)) {
+            System.out.println("Vive le beau temps !");
+        } else if(fahrenheit > 85) {
+            System.out.println("Reste à la maison, il fait très chaud !");
+        } else {
+            System.out.println("Reste à la maison, il fait froid !");
+        }
     }
 }
 

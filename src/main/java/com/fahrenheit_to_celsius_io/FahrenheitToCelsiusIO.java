@@ -14,7 +14,7 @@ public class FahrenheitToCelsiusIO {
         Scanner input = new Scanner(System.in);
         System.out.print("Entrer une valeur Fahrenheit : ");
         int fahrenheit = input.nextInt();
-        System.out.print("Entrer le jour concerné : ");
+        System.out.print("Entrer un jour de la semaine : ");
         String days = input.next();
         double celsius = (fahrenheit - 32) * (5D / 9);
 

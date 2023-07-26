@@ -1,4 +1,4 @@
-package com.fahrenheit_to_celsius_io;
+package com.example.fahrenheit_to_celsius;
 
 public class FahrenheitToCelsius {
 

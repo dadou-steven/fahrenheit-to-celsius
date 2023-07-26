@@ -32,7 +32,6 @@ public class FahrenheitToCelsius {
         this.tuesdayFahrenheit = tuesdayFahrenheit;
     }
 
-
     // méthodes
 
     public void mondayCelsius() {

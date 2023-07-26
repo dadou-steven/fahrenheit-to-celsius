@@ -123,9 +123,10 @@ public class FahrenheitToCelsius {
 
     public static void main(String[] args) {
 
-        FahrenheitToCelsius solution = new FahrenheitToCelsius(60, 65,
-                70, 75, 80, 85, 90);
+        FahrenheitToCelsius solution = new FahrenheitToCelsius(60, 65, 70, 75, 80, 85, 90);
+        
         System.out.println("Température moyenne : \n");
+        
         System.out.print("Lundi Fahrenheit    : " + solution.getMondayFahrenheit() + " -> En Celsius : ");
         solution.mondayCelsius();
         System.out.print("Mardi Fahrenheit    : " + solution.getTuesdayFahrenheit() + " -> En Celsius : ");

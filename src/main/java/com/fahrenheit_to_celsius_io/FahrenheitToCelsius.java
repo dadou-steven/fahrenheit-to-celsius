@@ -1,4 +1,4 @@
-package com.example.fahrenheit_to_celsius;
+package com.fahrenheit_to_celsius_io;
 
 public class FahrenheitToCelsius {
 
@@ -118,6 +118,8 @@ public class FahrenheitToCelsius {
         double dimanche = (5D / 9) * (sundayFahrenheit - 32);
         System.out.println(dimanche);
     }
+
+    // afficher le résultat
 
     public static void main(String[] args) {
 

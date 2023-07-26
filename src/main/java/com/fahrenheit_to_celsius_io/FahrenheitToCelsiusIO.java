@@ -19,15 +19,15 @@ public class FahrenheitToCelsiusIO {
         double celsius = (fahrenheit - 32) * (5D / 9);
 
         boolean raining = false;
-        System.out.print("Les averses ? (y/n) : ");
+        System.out.print("Les averses ? (oui/non) : ");
         String rainInput = input.next().toLowerCase();
-        if (rainInput.startsWith("y")) {
+        if (rainInput.startsWith("oui")) {
             raining = true;
         }
 
         System.out.printf("%s %s %.1f \n", days + " En Fahrenheit : ", fahrenheit + "° -> En Celsius : ", celsius);
 
-        if ((fahrenheit >= 60) && (fahrenheit <= 85) && (!raining)) {
+        if ((fahrenheit >= MIN_TEMP) && (fahrenheit <= MAX_TEMP) && (!raining)) {
             System.out.println("Vive le beau temps !");
         } else if (fahrenheit > 85) {
             System.out.println("Reste à la maison, il fait très chaud !");

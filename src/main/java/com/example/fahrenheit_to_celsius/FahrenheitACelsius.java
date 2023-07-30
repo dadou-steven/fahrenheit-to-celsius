@@ -14,23 +14,6 @@ public class FahrenheitACelsius {
         this.mardiFahrenheit = mardiFahrenheit;
     }
 
-    // accesseurs (getters) et mutateurs (setters)
-
-    public int getLundiFahrenheit() {
-        return lundiFahrenheit;
-    }
-
-    public void setLundiFahrenheit(int lundiFahrenheit) {
-        this.lundiFahrenheit = lundiFahrenheit;
-    }
-
-    public int getMardiFahrenheit() {
-        return mardiFahrenheit;
-    }
-
-    public void setMardiFahrenheit(int mardiFahrenheit) {
-        this.mardiFahrenheit = mardiFahrenheit;
-    }
 
     // méthodes
 
@@ -50,7 +33,7 @@ public class FahrenheitACelsius {
 
     public static void main(String[] args) {
 
-        FahrenheitACelsius solution = new FahrenheitACelsius(78, 81);
+        FahrenheitACelsius solution = new FahrenheitACelsius(70, 90);
 
         solution.fahrenheit(solution.celsiusLundi());
         solution.fahrenheit(solution.celsiusMardi());

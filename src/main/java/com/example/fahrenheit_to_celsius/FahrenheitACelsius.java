@@ -17,7 +17,8 @@ public class FahrenheitACelsius {
     // méthodes
 
     /**
-     * Spécification de la méthode fahrenheit
+     * Spécification de la
+     * méthode fahrenheit
      * @param celsius convertissant le degré fahrenheit
      */
     public void fahrenheit(double celsius) {

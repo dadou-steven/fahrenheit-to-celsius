@@ -17,6 +17,10 @@ public class FahrenheitACelsius {
 
     // méthodes
 
+    /**
+     * Spécification de la méthode fahrenheit
+     * @param celsius convertissant le degré fahrenheit
+     */
     public void fahrenheit(double celsius) {
         System.out.println(celsius);
     }

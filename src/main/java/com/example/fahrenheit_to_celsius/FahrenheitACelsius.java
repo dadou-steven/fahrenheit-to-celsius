@@ -14,7 +14,6 @@ public class FahrenheitACelsius {
         this.mardiFahrenheit = mardiFahrenheit;
     }
 
-
     // méthodes
 
     public void fahrenheit(double celsius) {

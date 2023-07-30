@@ -46,7 +46,6 @@ public class FahrenheitACelsius {
         return (5D / 9) * (mardiFahrenheit - 32);
     }
 
-
     // afficher le résultat
 
     public static void main(String[] args) {

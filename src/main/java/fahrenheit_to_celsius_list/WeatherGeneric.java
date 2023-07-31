@@ -1,6 +1,6 @@
 package fahrenheit_to_celsius_list;
 
-public class Weather<T extends Comparable<T>> {
+public class WeatherGeneric<T extends Comparable<T>> {
 
     // déclaration de variables d'instance
 
@@ -9,7 +9,7 @@ public class Weather<T extends Comparable<T>> {
 
     // constructeur
 
-    public Weather(T jours1, T jours2){
+    public WeatherGeneric(T jours1, T jours2){
         this.jours1 = jours1;
         this.jours2 = jours2;
     }
@@ -42,7 +42,7 @@ public class Weather<T extends Comparable<T>> {
 
     public static void main(String[] args) {
 
-        Weather<String> semaine = new Weather<>("Lundi, Mardi", "Mercredi, Jeudi");
+        WeatherGeneric<String> semaine = new WeatherGeneric<>("Lundi, Mardi", "Mercredi, Jeudi");
         System.out.println(semaine.dayCompare());
     }
 }

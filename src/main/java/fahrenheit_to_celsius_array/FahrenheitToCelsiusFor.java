@@ -1,4 +1,4 @@
-package fahrenheit_to_celsius_array_list;
+package fahrenheit_to_celsius_array;
 
 public class FahrenheitToCelsiusFor {
 

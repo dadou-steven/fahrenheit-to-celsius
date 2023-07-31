@@ -1,4 +1,4 @@
-package com.fahrenheit_to_celsius_io;
+package fahrenheit_to_celsius_io;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

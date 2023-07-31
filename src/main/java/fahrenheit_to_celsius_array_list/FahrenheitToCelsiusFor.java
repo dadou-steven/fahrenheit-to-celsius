@@ -23,5 +23,14 @@ public class FahrenheitToCelsiusFor {
         double tempsMoyenne = temps / fahrenheits.length;
 
         System.out.println("Température moyenne : " + tempsMoyenne);
+
+        // Utilisation d'argument (args)
+
+        double jour = 0;
+        for (String day : args) {
+            jour += Double.parseDouble(day);
+        }
+        double moyenne = (args.length > 0) ? (jour / args.length) : 0;
+        System.out.println(moyenne);
     }
 }

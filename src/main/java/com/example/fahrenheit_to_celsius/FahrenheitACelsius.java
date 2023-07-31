@@ -80,3 +80,5 @@ public class FahrenheitACelsius {
         solution.tempsCondition(solution.tempsMardi());
     }
 }
+
+// https://github.com/dadou-steven/fahrenheit-to-celsius/blob/main/src/main/java/com/example/fahrenheit_to_celsius/FahrenheitToCelsius.java

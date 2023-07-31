@@ -4,6 +4,17 @@ public class FahrenheitToCelsiusArrayString1 {
 
     // méthodes
 
+    public static boolean rechercheFahrenheitAB(String day, String[] jours) {
+        boolean result = false;
+        for (String jour : jours) {
+            if ((jour != null) && (jour.equals(day))) {
+                result = true;
+                break;
+            }
+        }
+        return result;
+    }
+
     public static String rechercheFahrenheitArray(String day, String[] jours) {
 
         String result = "non trouvé, essai encore.";
@@ -23,6 +34,8 @@ public class FahrenheitToCelsiusArrayString1 {
         String[] jours = {"lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"};
 
         System.out.println(rechercheFahrenheitArray("mardi", jours));
-        System.out.println(rechercheFahrenheitArray("janvier", jours));
+        System.out.println(rechercheFahrenheitArray("août", jours));
+        System.out.println(rechercheFahrenheitAB("mardi", jours));
+        System.out.println(rechercheFahrenheitAB("août", jours));
     }
 }

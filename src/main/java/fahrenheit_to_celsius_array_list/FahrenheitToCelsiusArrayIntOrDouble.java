@@ -1,6 +1,6 @@
 package fahrenheit_to_celsius_array_list;
 
-public class FahrenheitToCelsiusArray {
+public class FahrenheitToCelsiusArrayIntOrDouble {
 
     // afficher le résultat
 

@@ -51,8 +51,3 @@ public class FahrenheitToCelsiusIO {
         }
     }
 }
-
-// voir aussi
-
-// https://github.com/dadou-steven/fahrenheit-to-celsius/blob/main/src/main/java/com/example/fahrenheit_to_celsius/FahrenheitACelsius.java
-// https://github.com/dadou-steven/fahrenheit-to-celsius/blob/main/src/main/java/com/example/fahrenheit_to_celsius/FahrenheitToCelsius.java
